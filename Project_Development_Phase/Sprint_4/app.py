@@ -21,21 +21,21 @@ from markupsafe import escape
 from sendgrid.helpers.mail import Mail, Email, To, Content
 
 # clarifai
-YOUR_CLARIFAI_API_KEY = "1b93f2034d514024a01206328d16a000"
-YOUR_APPLICATION_ID = "Nutrition_assistant1"
+YOUR_CLARIFAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxx"
+YOUR_APPLICATION_ID = "xxxxxxxxxxxxxxxxxxxxxxx"
 channel = ClarifaiChannel.get_json_channel()
 stub = service_pb2_grpc.V2Stub(channel)
 metadata = (("authorization", f"Key {YOUR_CLARIFAI_API_KEY}"),)
 
 # sendgrid
-SENDGRID_API_KEY = "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"
+SENDGRID_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # rapid API
 url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/parseIngredients"
 querystring = {"includeNutrition": "true"}
 headers = {"content-type": "application/x-www-form-urlencoded",
-           "X-RapidAPI-Key": "cce727c5c8msha93ab918e2a4963p137240jsn9e783821969c",
-           "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com "
+           "X-RapidAPI-Key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+           "X-RapidAPI-Host": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
            }
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'jfif'}
@@ -57,7 +57,7 @@ app.secret_key = "\xfd{H\xe5<\x95\xf9\xe3\x96.5\xd1\x01O<!\xd5\xa2\xa0\x9fR"
 # sendgrid
 def send_mail(email):
     sg = sendgrid.SendGridAPIClient(SENDGRID_API_KEY)
-    from_email = Email("nutritioninyourlife.foryoy@gmail.com")  # Change to your verified sender
+    from_email = Email("xxxxxxxxxxxxxx.foryoy@gmail.com")  # Change to your verified sender
     to_email = To(email)  # Change to your recipient
     subject = "Nutrition is a basic human need and a prerequisite for healthy life"
     content = Content("text/plain",

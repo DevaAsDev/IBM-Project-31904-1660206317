@@ -17,9 +17,9 @@ conn = ibm_db.connect(
 print(conn)
 
 # key for encryption
-KEY = "24803877913464067088963527689231"
+KEY = "xxxxxxxxxxxxxxxxxxxxx"
 # sendgrid
-SENDGRID_API_KEY = "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"
+SENDGRID_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 app = Flask(__name__)
 

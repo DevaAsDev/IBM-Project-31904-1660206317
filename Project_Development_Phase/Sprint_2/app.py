@@ -27,9 +27,9 @@ conn = ibm_db.connect(
 print(conn)
 
 # key for encryption
-KEY = "24803877913464067088963527689231"
+KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 # sendgrid
-SENDGRID_API_KEY = "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"
+SENDGRID_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 app = Flask(__name__)
 
@@ -93,7 +93,7 @@ def get_user():
 # sendgrid
 def send_mail(email):
     sg = sendgrid.SendGridAPIClient(SENDGRID_API_KEY)
-    from_email = Email("nutritioninyourlife.foryoy@gmail.com")  # Change to your verified sender
+    from_email = Email("xxxxxxxxxxxxxxxx@gmail.com")  # Change to your verified sender
     to_email = To(email)  # Change to your recipient
     subject = "Nutrition is a basic human need and a prerequisite for healthy life"
     content = Content("text/plain",

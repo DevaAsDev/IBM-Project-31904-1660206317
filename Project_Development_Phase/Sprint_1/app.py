@@ -4,7 +4,7 @@ import ibm_db
 import sendgrid
 from sendgrid.helpers.mail import Mail, Email, To, Content
 
-SENDGRID_API_KEY = "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"  # sendgrid
+SENDGRID_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # sendgrid
 
 conn = ibm_db.connect(
     "DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT"
@@ -21,7 +21,7 @@ app.secret_key = "\xfd{H\xe5<\x95\xf9\xe3\x96.5\xd1\x01O<!\xd5\xa2\xa0\x9fR"
 # sendgrid
 def send_mail(email):
     sg = sendgrid.SendGridAPIClient(SENDGRID_API_KEY)
-    from_email = Email("nutritioninyourlife.foryoy@gmail.com")  # Change to your verified sender
+    from_email = Email("xxxxxxxxxxxxxxxxxx@gmail.com")  # Change to your verified sender
     to_email = To(email)  # Change to your recipient
     subject = "Nutrition is a basic human need and a prerequisite for healthy life"
     content = Content("text/plain",
