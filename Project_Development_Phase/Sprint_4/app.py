@@ -76,7 +76,7 @@ def send_mail(email):
 
 def custom_send_mail(email, otp):
     sg = sendgrid.SendGridAPIClient(SENDGRID_API_KEY)
-    from_email = Email("nutritioninyourlife.foryoy@gmail.com")  # Change to your verified sender
+    from_email = Email("xxxxxxxxxx@gmail.com")  # Change to your verified sender
     to_email = To(email)  # Change to your recipient
     subject = "Nutrition is a basic human need and a prerequisite for healthy life"
     content = Content("text/plain",
