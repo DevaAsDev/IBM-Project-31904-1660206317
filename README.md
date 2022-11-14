@@ -28,4 +28,4 @@ This project aims at building a web App that automatically estimates food attrib
 
 
 ### Technical Architecture:
-![image](https://github.com/DevaAsDev/nutrition_assistant/blob/master/src/structure.png?raw=true)
+![image](https://github.com/IBM-EPBL/IBM-Project-31904-1660206317/blob/master/Final%20Deliverables/Screenshot/Architecture/Architecture.png?raw=true)
