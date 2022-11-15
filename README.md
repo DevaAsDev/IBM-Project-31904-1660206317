@@ -3,15 +3,17 @@ Nutrition-Assistant-Application
 
 ## Team Info ##
 
-Team_Lead - K.Abarna
+### Team_Lead
+K.Abarna
 
-M1_Lead   - Devendra Prakash S
+### Team Members
+Devendra Prakash S
 
-M2_Lead   - Govindaraj
+Govindaraj
 
-M3_Lead   - Gowtham M
+Gowtham M
 
-M4_Lead   - Mythily
+Mythily
 
 ### Introduction: 
 
