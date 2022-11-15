@@ -7,8 +7,8 @@ from sendgrid.helpers.mail import Mail, Email, To, Content
 SENDGRID_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # sendgrid
 
 conn = ibm_db.connect(
-    "DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT"
-    "=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xnc98967;PWD=wQioPYLq4Oanh0Vm",
+    "DATABASE=bludb;HOSTNAME=ea286ace-86c7-4db-850-3fbfa461c66.bs2io90l081od8lcg.databases.appdomain.cloud;PORT"
+    "=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xnc98967;PWD=wQioPYLq4Oanh0",
     '', '')
 
 print(conn)

@@ -43,8 +43,8 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'jfif'}
 KEY = "24803877913464067088963527689231"
 
 conn = ibm_db.connect(
-    "DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT"
-    "=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xnc98967;PWD=wQioPYLq4Oanh0Vm",
+    "DATABASE=bludb;HOSTNAME=ea28e-86c7-4d5b-8580-3fbfa46c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT"
+    "=31509;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xnc9867;PWD=wQioPYLq4Oanh",
     '', '')
 
 print(conn)
