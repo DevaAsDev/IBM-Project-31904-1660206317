@@ -30,3 +30,5 @@ This project aims at building a web App that automatically estimates food attrib
 ![image](https://github.com/IBM-EPBL/IBM-Project-31904-1660206317/blob/master/Final%20Deliverables/Screenshot/Dashboard.png?raw=true)
 
 ![image](https://github.com/IBM-EPBL/IBM-Project-31904-1660206317/blob/master/Final%20Deliverables/Screenshot/Result.png?raw=true)
+
+![image](https://github.com/IBM-EPBL/IBM-Project-31904-1660206317/blob/master/Final%20Deliverables/Screenshot/Admin%Panal.png?raw=true)
