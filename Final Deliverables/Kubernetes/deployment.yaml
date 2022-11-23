@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nutrition-assistant
+
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: nutrition-assistant
+  template:
+    metadata:
+      labels:
+        app: nutrition-assistant-application
+    spec:
+      containers:
+        - name: nutrition-assistant
+          image: jp.icr.io/nutrition/nutrition_assistant
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
+              protocol: TCP
