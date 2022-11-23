@@ -1,0 +1,9 @@
+flask~=2.2.2
+sendgrid~=6.9.7
+ibm_db
+clarifai_grpc
+cryptography~=38.0.3
+requests~=2.28.1
+sendgrid
+MarkupSafe~=2.1.1
+pytz
