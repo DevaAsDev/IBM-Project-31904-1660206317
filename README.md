@@ -1,7 +1,7 @@
 Nutrition-Assistant-Application
 ================================
 
-[Live Web site](http://159.122.186.196:32008/)
+[Live Web site](http://169.51.207.40:32645/)
 
 [Demo Video](https://youtu.be/M3W8Lk93D18)
 
